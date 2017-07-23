@@ -103,6 +103,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/lenovo/p2/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/lenovo/p2/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/lenovo/p2/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
     vendor/lenovo/p2/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lenovo/p2/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lenovo/p2/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
@@ -392,6 +393,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/lenovo/p2/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/sensors.alsps.so:system/vendor/lib/sensors.alsps.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/sensors.st.so:system/vendor/lib/sensors.st.so \
     vendor/lenovo/p2/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/lenovo/p2/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/lenovo/p2/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
@@ -484,6 +488,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/sensors.alsps.so:system/vendor/lib64/sensors.alsps.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/sensors.st.so:system/vendor/lib64/sensors.st.so \
     vendor/lenovo/p2/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
