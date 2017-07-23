@@ -58,6 +58,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/lenovo/p2/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/lenovo/p2/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+    vendor/lenovo/p2/proprietary/etc/camera/imx258_kuntaoof_chromatix.xml:system/etc/camera/imx258_kuntaoof_chromatix.xml \
+    vendor/lenovo/p2/proprietary/etc/camera/imx258_kuntaosy_chromatix.xml:system/etc/camera/imx258_kuntaosy_chromatix.xml \
+    vendor/lenovo/p2/proprietary/etc/camera/lenovo_kuntao_camera.xml:system/etc/camera/lenovo_kuntao_camera.xml \
+    vendor/lenovo/p2/proprietary/etc/camera/ov5695_kuntaoof_chromatix.xml:system/etc/camera/ov5695_kuntaoof_chromatix.xml \
+    vendor/lenovo/p2/proprietary/etc/camera/ov5695_kuntaosy_chromatix.xml:system/etc/camera/ov5695_kuntaosy_chromatix.xml \
     vendor/lenovo/p2/proprietary/etc/cdrom_install.iso:system/etc/cdrom_install.iso \
     vendor/lenovo/p2/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/lenovo/p2/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
