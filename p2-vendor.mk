@@ -553,6 +553,7 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     com.qualcomm.location \
     qcrilmsgtunnel \
+    colorservice \
     com.google.android.media.effects \
     com.google.widevine.software.drm \
     com.qti.location.sdk \
