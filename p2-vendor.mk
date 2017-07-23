@@ -75,6 +75,20 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/lenovo/p2/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/lenovo/p2/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/lenovo/p2/proprietary/etc/firmware/a506_zap.b00:system/etc/firmware/a506_zap.b00 \
+    vendor/lenovo/p2/proprietary/etc/firmware/a506_zap.b01:system/etc/firmware/a506_zap.b01 \
+    vendor/lenovo/p2/proprietary/etc/firmware/a506_zap.b02:system/etc/firmware/a506_zap.b02 \
+    vendor/lenovo/p2/proprietary/etc/firmware/a506_zap.elf:system/etc/firmware/a506_zap.elf \
+    vendor/lenovo/p2/proprietary/etc/firmware/a506_zap.mdt:system/etc/firmware/a506_zap.mdt \
+    vendor/lenovo/p2/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
+    vendor/lenovo/p2/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
+    vendor/lenovo/p2/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
+    vendor/lenovo/p2/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
+    vendor/lenovo/p2/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
+    vendor/lenovo/p2/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
+    vendor/lenovo/p2/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
+    vendor/lenovo/p2/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
+    vendor/lenovo/p2/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
     vendor/lenovo/p2/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/lenovo/p2/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/lenovo/p2/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -84,8 +98,36 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
     vendor/lenovo/p2/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/lenovo/p2/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/lenovo/p2/proprietary/etc/firmware/emmc_ffu_15_RX14MB.fw:system/etc/firmware/emmc_ffu_15_RX14MB.fw \
+    vendor/lenovo/p2/proprietary/etc/firmware/hbtp/hbtpcfg.dat:system/etc/firmware/hbtp/hbtpcfg.dat \
+    vendor/lenovo/p2/proprietary/etc/firmware/hbtp/qtc800s_dsp.bin:system/etc/firmware/hbtp/qtc800s_dsp.bin \
+    vendor/lenovo/p2/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/lenovo/p2/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lenovo/p2/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/lenovo/p2/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
+    vendor/lenovo/p2/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
+    vendor/lenovo/p2/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
+    vendor/lenovo/p2/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
+    vendor/lenovo/p2/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
+    vendor/lenovo/p2/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
+    vendor/lenovo/p2/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
+    vendor/lenovo/p2/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
+    vendor/lenovo/p2/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
+    vendor/lenovo/p2/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
+    vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508-16060806-kuntao.tdat:system/etc/firmware/synaptics-s3508-16060806-kuntao.tdat \
+    vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508-16062306-kuntao.tdat:system/etc/firmware/synaptics-s3508-16062306-kuntao.tdat \
+    vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508-16071507-kuntao.tdat:system/etc/firmware/synaptics-s3508-16071507-kuntao.tdat \
+    vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508-16080201-kuntao.tdat:system/etc/firmware/synaptics-s3508-16080201-kuntao.tdat \
+    vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508-16081202-kuntao.tdat:system/etc/firmware/synaptics-s3508-16081202-kuntao.tdat \
+    vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508-16082202-kuntao.tdat:system/etc/firmware/synaptics-s3508-16082202-kuntao.tdat \
+    vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508sga-16060806-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16060806-kuntao.tdat \
+    vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508sga-16062306-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16062306-kuntao.tdat \
+    vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508sga-16071507-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16071507-kuntao.tdat \
+    vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508sga-16080201-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16080201-kuntao.tdat \
+    vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat \
+    vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat \
+    vendor/lenovo/p2/proprietary/etc/firmware/tas2555_uCDSP.bin:system/etc/firmware/tas2555_uCDSP.bin \
+    vendor/lenovo/p2/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/lenovo/p2/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/lenovo/p2/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/lenovo/p2/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
