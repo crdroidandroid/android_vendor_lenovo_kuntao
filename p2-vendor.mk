@@ -17,16 +17,21 @@
 PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lenovo/p2/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/lenovo/p2/proprietary/bin/cnd:system/bin/cnd \
+    vendor/lenovo/p2/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/lenovo/p2/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/lenovo/p2/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/lenovo/p2/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/lenovo/p2/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/lenovo/p2/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lenovo/p2/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lenovo/p2/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lenovo/p2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lenovo/p2/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lenovo/p2/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/lenovo/p2/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/lenovo/p2/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/lenovo/p2/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/lenovo/p2/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/p2/proprietary/bin/radish:system/bin/radish \
     vendor/lenovo/p2/proprietary/bin/rild:system/bin/rild \
@@ -64,6 +69,22 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/camera/ov5695_kuntaoof_chromatix.xml:system/etc/camera/ov5695_kuntaoof_chromatix.xml \
     vendor/lenovo/p2/proprietary/etc/camera/ov5695_kuntaosy_chromatix.xml:system/etc/camera/ov5695_kuntaosy_chromatix.xml \
     vendor/lenovo/p2/proprietary/etc/cdrom_install.iso:system/etc/cdrom_install.iso \
+    vendor/lenovo/p2/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/lenovo/p2/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/lenovo/p2/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
+    vendor/lenovo/p2/proprietary/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/etc/cne/wqeclient/ATT/ATT_profile2.xml \
+    vendor/lenovo/p2/proprietary/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/etc/cne/wqeclient/ATT/ATT_profile3.xml \
+    vendor/lenovo/p2/proprietary/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/etc/cne/wqeclient/ATT/ATT_profile4.xml \
+    vendor/lenovo/p2/proprietary/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/etc/cne/wqeclient/ROW/ROW_profile1.xml \
+    vendor/lenovo/p2/proprietary/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/etc/cne/wqeclient/ROW/ROW_profile2.xml \
+    vendor/lenovo/p2/proprietary/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/etc/cne/wqeclient/ROW/ROW_profile3.xml \
+    vendor/lenovo/p2/proprietary/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/etc/cne/wqeclient/ROW/ROW_profile5.xml \
+    vendor/lenovo/p2/proprietary/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/etc/cne/wqeclient/VZW/VZW_profile1.xml \
+    vendor/lenovo/p2/proprietary/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/etc/cne/wqeclient/VZW/VZW_profile2.xml \
+    vendor/lenovo/p2/proprietary/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/etc/cne/wqeclient/VZW/VZW_profile3.xml \
+    vendor/lenovo/p2/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
+    vendor/lenovo/p2/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
+    vendor/lenovo/p2/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/lenovo/p2/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/lenovo/p2/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lenovo/p2/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
@@ -138,9 +159,12 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/lenovo/p2/proprietary/etc/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
     vendor/lenovo/p2/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
+    vendor/lenovo/p2/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
+    vendor/lenovo/p2/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/lenovo/p2/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/lenovo/p2/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/lenovo/p2/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/lenovo/p2/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/lenovo/p2/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/p2/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lenovo/p2/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
@@ -151,14 +175,17 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/lenovo/p2/proprietary/lib/hw/lights.msm8953.so:system/lib/hw/lights.msm8953.so \
     vendor/lenovo/p2/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
+    vendor/lenovo/p2/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/lenovo/p2/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lenovo/p2/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lenovo/p2/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lenovo/p2/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/lenovo/p2/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
     vendor/lenovo/p2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lenovo/p2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lenovo/p2/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/lenovo/p2/proprietary/lib/libnetd_client.so:system/lib/libnetd_client.so \
+    vendor/lenovo/p2/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
+    vendor/lenovo/p2/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/lenovo/p2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lenovo/p2/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lenovo/p2/proprietary/lib/libunwind.so:system/lib/libunwind.so \
@@ -175,7 +202,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lenovo/p2/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lenovo/p2/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/lenovo/p2/proprietary/lib64/libnetd_client.so:system/lib64/libnetd_client.so \
+    vendor/lenovo/p2/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
+    vendor/lenovo/p2/proprietary/lib64/libmotext_inf.so:system/lib64/libmotext_inf.so \
+    vendor/lenovo/p2/proprietary/lib64/libqmimotext.so:system/lib64/libqmimotext.so \
     vendor/lenovo/p2/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lenovo/p2/proprietary/lib64/libunwind.so:system/lib64/libunwind.so \
     vendor/lenovo/p2/proprietary/lib64/libvalAuth.so:system/lib64/libvalAuth.so \
@@ -202,12 +231,16 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
@@ -217,9 +250,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib/libactuator_dw9767_kuntaosy.so:system/vendor/lib/libactuator_dw9767_kuntaosy.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:system/vendor/lib/libchromatix_csidtg_postproc.so \
@@ -308,13 +345,20 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib/libchromatix_ov5695_kuntaosy_zsl_preview.so:system/vendor/lib/libchromatix_ov5695_kuntaosy_zsl_preview.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libchromatix_ov5695_kuntaosy_zsl_video.so:system/vendor/lib/libchromatix_ov5695_kuntaosy_zsl_video.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
@@ -326,15 +370,19 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
     vendor/lenovo/p2/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/lenovo/p2/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     vendor/lenovo/p2/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/lenovo/p2/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
     vendor/lenovo/p2/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libmmcamera2_dcrf.so:system/vendor/lib/libmmcamera2_dcrf.so \
@@ -417,10 +465,20 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libmmsw_detail_enhancement.so:system/vendor/lib/libmmsw_detail_enhancement.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libmotocalibration.so:system/vendor/lib/libmotocalibration.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
@@ -429,21 +487,82 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/librilqmiservices.so:system/vendor/lib/librilqmiservices.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/lenovo/p2/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lenovo/p2/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveBlobDescriptor.so:system/vendor/lib/libscveBlobDescriptor.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:system/vendor/lib/libscveBlobDescriptor_stub.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveCleverCapture.so:system/vendor/lib/libscveCleverCapture.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveCleverCapture_stub.so:system/vendor/lib/libscveCleverCapture_stub.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveCommon.so:system/vendor/lib/libscveCommon.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveCommon_stub.so:system/vendor/lib/libscveCommon_stub.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveFaceRecognition.so:system/vendor/lib/libscveFaceRecognition.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveImageCloning.so:system/vendor/lib/libscveImageCloning.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveImageCorrection.so:system/vendor/lib/libscveImageCorrection.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveImageRemoval.so:system/vendor/lib/libscveImageRemoval.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveMotionVector.so:system/vendor/lib/libscveMotionVector.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveObjectMatting.so:system/vendor/lib/libscveObjectMatting.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveObjectMatting_stub.so:system/vendor/lib/libscveObjectMatting_stub.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveObjectSegmentation.so:system/vendor/lib/libscveObjectSegmentation.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:system/vendor/lib/libscveObjectSegmentation_stub.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveObjectTracker.so:system/vendor/lib/libscveObjectTracker.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveObjectTracker_stub.so:system/vendor/lib/libscveObjectTracker_stub.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscvePanorama.so:system/vendor/lib/libscvePanorama.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscvePanorama_lite.so:system/vendor/lib/libscvePanorama_lite.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveTextReco.so:system/vendor/lib/libscveTextReco.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libscveTextReco_stub.so:system/vendor/lib/libscveTextReco_stub.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/lenovo/p2/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so:system/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so:system/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:system/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
     vendor/lenovo/p2/proprietary/vendor/lib/sensors.alsps.so:system/vendor/lib/sensors.alsps.so \
     vendor/lenovo/p2/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/lenovo/p2/proprietary/vendor/lib/sensors.st.so:system/vendor/lib/sensors.st.so \
@@ -464,23 +583,31 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
@@ -488,6 +615,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
@@ -497,6 +625,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
@@ -504,14 +633,22 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libmmsw_detail_enhancement.so:system/vendor/lib64/libmmsw_detail_enhancement.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libmmsw_math.so:system/vendor/lib64/libmmsw_math.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libmmsw_opencl.so:system/vendor/lib64/libmmsw_opencl.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libmmsw_platform.so:system/vendor/lib64/libmmsw_platform.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
@@ -520,23 +657,61 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveBlobDescriptor.so:system/vendor/lib64/libscveBlobDescriptor.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveBlobDescriptor_stub.so:system/vendor/lib64/libscveBlobDescriptor_stub.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveCleverCapture.so:system/vendor/lib64/libscveCleverCapture.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveCleverCapture_stub.so:system/vendor/lib64/libscveCleverCapture_stub.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveCommon.so:system/vendor/lib64/libscveCommon.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveCommon_stub.so:system/vendor/lib64/libscveCommon_stub.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveFaceRecognition.so:system/vendor/lib64/libscveFaceRecognition.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveImageCloning.so:system/vendor/lib64/libscveImageCloning.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveImageCorrection.so:system/vendor/lib64/libscveImageCorrection.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveImageRemoval.so:system/vendor/lib64/libscveImageRemoval.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveMotionVector.so:system/vendor/lib64/libscveMotionVector.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveObjectMatting.so:system/vendor/lib64/libscveObjectMatting.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveObjectMatting_stub.so:system/vendor/lib64/libscveObjectMatting_stub.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveObjectSegmentation.so:system/vendor/lib64/libscveObjectSegmentation.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveObjectSegmentation_stub.so:system/vendor/lib64/libscveObjectSegmentation_stub.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveObjectTracker.so:system/vendor/lib64/libscveObjectTracker.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveObjectTracker_stub.so:system/vendor/lib64/libscveObjectTracker_stub.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscvePanorama.so:system/vendor/lib64/libscvePanorama.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscvePanorama_lite.so:system/vendor/lib64/libscvePanorama_lite.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveTextReco.so:system/vendor/lib64/libscveTextReco.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveTextRecoPostProcessing.so:system/vendor/lib64/libscveTextRecoPostProcessing.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libscveTextReco_stub.so:system/vendor/lib64/libscveTextReco_stub.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libsdm-disp-apis.so:system/vendor/lib64/libsdm-disp-apis.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
@@ -549,12 +724,18 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
+    datastatusnotification \
     shutdownlistener \
+    CNEService \
+    QtiTetherService \
     com.qualcomm.location \
     qcrilmsgtunnel \
     colorservice \
+    ConnectivityExt \
+    cneapiclient \
     com.google.android.media.effects \
     com.google.widevine.software.drm \
     com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
+    com.quicinc.cne \
     qcrilhook

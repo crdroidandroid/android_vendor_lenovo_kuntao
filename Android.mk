@@ -42,6 +42,17 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := datastatusnotification
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/app/datastatusnotification/datastatusnotification.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := shutdownlistener
 LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES := proprietary/app/shutdownlistener/shutdownlistener.apk
@@ -50,6 +61,30 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := CNEService
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/priv-app/CNEService/CNEService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := QtiTetherService
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/priv-app/QtiTetherService/QtiTetherService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -89,6 +124,26 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := ConnectivityExt
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/framework/ConnectivityExt.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := cneapiclient
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/framework/cneapiclient.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := com.google.android.media.effects
 LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES := proprietary/framework/com.google.android.media.effects.jar
@@ -122,6 +177,16 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := com.qti.snapdragon.sdk.display
 LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES := proprietary/framework/com.qti.snapdragon.sdk.display.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.quicinc.cne
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
