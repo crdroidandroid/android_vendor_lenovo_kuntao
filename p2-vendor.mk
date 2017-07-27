@@ -236,6 +236,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib/hw/vulkan.msm8953.so:system/vendor/lib/hw/vulkan.msm8953.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
@@ -362,6 +363,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libdrplugin_client.so:system/vendor/lib/libdrplugin_client.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -590,6 +592,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib64/hw/vulkan.msm8953.so:system/vendor/lib64/hw/vulkan.msm8953.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
@@ -621,6 +624,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
