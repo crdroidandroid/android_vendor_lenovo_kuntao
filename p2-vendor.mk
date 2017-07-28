@@ -182,6 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lenovo/p2/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lenovo/p2/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
+    vendor/lenovo/p2/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
     vendor/lenovo/p2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lenovo/p2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lenovo/p2/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -204,9 +205,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lenovo/p2/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/lenovo/p2/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
+    vendor/lenovo/p2/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
     vendor/lenovo/p2/proprietary/lib64/libmotext_inf.so:system/lib64/libmotext_inf.so \
     vendor/lenovo/p2/proprietary/lib64/libqmimotext.so:system/lib64/libqmimotext.so \
     vendor/lenovo/p2/proprietary/lib64/libril.so:system/lib64/libril.so \
+    vendor/lenovo/p2/proprietary/lib64/libtzssm.so:system/lib64/libtzssm.so \
     vendor/lenovo/p2/proprietary/lib64/libunwind.so:system/lib64/libunwind.so \
     vendor/lenovo/p2/proprietary/lib64/libvalAuth.so:system/lib64/libvalAuth.so \
     vendor/lenovo/p2/proprietary/lib64/libvcsfp.so:system/lib64/libvcsfp.so \
@@ -257,6 +260,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libcamera_bm_algo.so:system/vendor/lib/libcamera_bm_algo.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \
@@ -378,6 +382,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
     vendor/lenovo/p2/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
     vendor/lenovo/p2/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libmag_akm.so:system/vendor/lib/libmag_akm.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
@@ -633,6 +638,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/lenovo/p2/proprietary/vendor/lib64/libmag_akm.so:system/vendor/lib64/libmag_akm.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
     vendor/lenovo/p2/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
@@ -729,7 +735,6 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     CNEService \
     QtiTetherService \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     colorservice \
     ConnectivityExt \
