@@ -156,9 +156,25 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/firmware/tas2555_uCDSP.bin:system/etc/firmware/tas2555_uCDSP.bin \
     vendor/lenovo/p2/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/lenovo/p2/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/lenovo/p2/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
     vendor/lenovo/p2/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
     vendor/lenovo/p2/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     vendor/lenovo/p2/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
+    vendor/lenovo/p2/proprietary/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
+    vendor/lenovo/p2/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
+    vendor/lenovo/p2/proprietary/etc/init.crda.sh:system/etc/init.crda.sh \
+    vendor/lenovo/p2/proprietary/etc/init.lenovo.persist.sh:system/etc/init.lenovo.persist.sh \
+    vendor/lenovo/p2/proprietary/etc/init.qcom.audio.sh:system/etc/init.qcom.audio.sh \
+    vendor/lenovo/p2/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
+    vendor/lenovo/p2/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
+    vendor/lenovo/p2/proprietary/etc/init.qcom.debug.sh:system/etc/init.qcom.debug.sh \
+    vendor/lenovo/p2/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
+    vendor/lenovo/p2/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
+    vendor/lenovo/p2/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
+    vendor/lenovo/p2/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
+    vendor/lenovo/p2/proprietary/etc/init.qcom.uicc.sh:system/etc/init.qcom.uicc.sh \
+    vendor/lenovo/p2/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
+    vendor/lenovo/p2/proprietary/etc/init.qti.ims.sh:system/etc/init.qti.ims.sh \
     vendor/lenovo/p2/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lenovo/p2/proprietary/etc/libnfc-brcm-20797b00.conf:system/etc/libnfc-brcm-20797b00.conf \
     vendor/lenovo/p2/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
@@ -177,6 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/p2/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lenovo/p2/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/lenovo/p2/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
     vendor/lenovo/p2/proprietary/etc/qdcm_calib_data_mipi_mot_cmd_smd_1080p_549.xml:system/etc/qdcm_calib_data_mipi_mot_cmd_smd_1080p_549.xml \
     vendor/lenovo/p2/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lenovo/p2/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
