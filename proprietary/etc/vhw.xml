@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2015 Motorola Mobility, Lenovo Company -->
+<!-- Features describe hardware items for product XYZ -->
+<validation>
+	<features>
+		<string-array name=".features">
+			<!-- HW descriptor version -->
+			<item>version</item>
+			<!-- RF banding -->
+			<item>radio</item>
+			<!-- RAM size -->
+			<item>ram</item>
+			<!-- Storage size -->
+			<item>storage</item>
+			<!-- Camera imager resolution -->
+			<item>imager</item>
+			<!-- Fingerprint sensor -->
+			<item>fps</item>
+			<!-- Dual SIM function -->
+			<item>dualsim</item>
+			<!-- Digital TV function -->
+			<item>dtv</item>
+			<!-- Near Field Communication function -->
+			<item>nfc</item>
+		</string-array>
+	</features>
+
+	<!-- Attributes describe constraints on features -->
+	<attributes>
+		<string-array name=".attributes">
+			<!-- range is a comma-separated list of allowed string values -->
+			<item>.range</item>
+			<!-- cmdline items must be exported to kernel cmdline, with prefix given in the value -->
+			<item>.cmdline</item>
+			<!-- chosen items must be exported to kernel devtree, with prefix given in the value -->
+			<item>.chosen</item>
+			<!-- system items must be exported as system property, with prefix given in the value -->
+			<item>.system</item>
+		</string-array>
+	</attributes>
+
+	<constraints>
+		<string name="version">1.4</string>
+
+		<string name="radio/.cmdline">androidboot.</string>
+		<string-array name="radio/.range">
+			<item>US</item>
+			<item>LATAM</item>
+			<item>EMEA</item>
+			<item>China</item>
+			<item>Brazil</item>
+			<item>India</item>
+		</string-array>
+
+		<string name="ram/.cmdline">androidboot.</string>
+		<string-array name="ram/.range">
+			<item>2GB</item>
+			<item>3GB</item>
+			<item>4GB</item>
+		</string-array>
+
+		<string name="storage/.cmdline">androidboot.</string>
+		<string-array name="storage/.range">
+			<item>16GB</item>
+			<item>32GB</item>
+			<item>64GB</item>
+		</string-array>
+
+		<string name="imager/.chosen">mmi,</string>
+		<string name="imager/.system">ro.hw.</string>
+		<string-array name="imager/.range">
+			<item>13MP</item>
+			<item>16MP</item>
+		</string-array>
+
+		<string name="fps/.chosen">mmi,</string>
+		<string name="fps/.system">ro.hw.</string>
+		<string-array name="fps/.range">
+			<item>true</item>
+			<item>false</item>
+		</string-array>
+
+		<string name="dualsim/.cmdline">androidboot.</string>
+		<string name="dualsim/.system">ro.hw.</string>
+		<string-array name="dualsim/.range">
+			<item>true</item>
+			<item>false</item>
+		</string-array>
+
+		<string name="dtv/.chosen">mmi,</string>
+		<string name="dtv/.system">ro.hw.</string>
+		<string-array name="dtv/.range">
+			<item>true</item>
+			<item>false</item>
+		</string-array>
+
+		<string name="nfc/.chosen">mmi,</string>
+		<string name="nfc/.system">ro.hw.</string>
+		<string-array name="nfc/.range">
+			<item>true</item>
+			<item>false</item>
+		</string-array>
+	</constraints>
+
+	<variants>
+		<variant name="_f">
+			<string name="fps">true</string>
+			<string name="nfc">false</string>
+			<string name="dtv">false</string>
+		</variant>
+
+		<variant name="_n">
+			<string name="fps">false</string>
+			<string name="nfc">true</string>
+			<string name="dtv">false</string>
+		</variant>
+
+		<variant name="_t">
+			<string name="fps">false</string>
+			<string name="nfc">false</string>
+			<string name="dtv">true</string>
+		</variant>
+
+		<variant name="_fn">
+			<string name="fps">true</string>
+			<string name="nfc">true</string>
+			<string name="dtv">false</string>
+		</variant>
+
+		<variant name="_ft">
+			<string name="fps">true</string>
+			<string name="nfc">false</string>
+			<string name="dtv">true</string>
+		</variant>
+
+		<variant name="_nt">
+			<string name="fps">false</string>
+			<string name="nfc">true</string>
+			<string name="dtv">true</string>
+		</variant>
+
+		<variant name="_fnt">
+			<string name="fps">true</string>
+			<string name="nfc">true</string>
+			<string name="dtv">true</string>
+		</variant>
+
+	</variants>
+</validation>
