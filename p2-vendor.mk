@@ -18,21 +18,27 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lenovo/p2/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/p2/proprietary/bin/cnd:system/bin/cnd \
+    vendor/lenovo/p2/proprietary/bin/emmc_ffu:system/bin/emmc_ffu \
+    vendor/lenovo/p2/proprietary/bin/emmc_ffu.sh:system/bin/emmc_ffu.sh \
+    vendor/lenovo/p2/proprietary/bin/emmc_ffu_15.sh:system/bin/emmc_ffu_15.sh \
     vendor/lenovo/p2/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/lenovo/p2/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/lenovo/p2/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/lenovo/p2/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/lenovo/p2/proprietary/bin/init.mmi.touch.sh:system/bin/init.mmi.touch.sh \
     vendor/lenovo/p2/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/lenovo/p2/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lenovo/p2/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lenovo/p2/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lenovo/p2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lenovo/p2/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/lenovo/p2/proprietary/bin/mv_files.sh:system/bin/mv_files.sh \
     vendor/lenovo/p2/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lenovo/p2/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/lenovo/p2/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/lenovo/p2/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lenovo/p2/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
+    vendor/lenovo/p2/proprietary/bin/qsee_log.sh:system/bin/qsee_log.sh \
     vendor/lenovo/p2/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/p2/proprietary/bin/radish:system/bin/radish \
     vendor/lenovo/p2/proprietary/bin/rild:system/bin/rild \
