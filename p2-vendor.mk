@@ -178,8 +178,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat \
     vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat \
     vendor/lenovo/p2/proprietary/etc/firmware/tas2555_uCDSP.bin:system/etc/firmware/tas2555_uCDSP.bin \
-    vendor/lenovo/p2/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/lenovo/p2/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/lenovo/p2/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
     vendor/lenovo/p2/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
     vendor/lenovo/p2/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
@@ -199,10 +197,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/init.qcom.uicc.sh:system/etc/init.qcom.uicc.sh \
     vendor/lenovo/p2/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
     vendor/lenovo/p2/proprietary/etc/init.qti.ims.sh:system/etc/init.qti.ims.sh \
-    vendor/lenovo/p2/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lenovo/p2/proprietary/etc/libnfc-brcm-20797b00.conf:system/etc/libnfc-brcm-20797b00.conf \
     vendor/lenovo/p2/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    vendor/lenovo/p2/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/lenovo/p2/proprietary/etc/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
     vendor/lenovo/p2/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
     vendor/lenovo/p2/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
@@ -220,7 +216,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lenovo/p2/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/lenovo/p2/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
-    vendor/lenovo/p2/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lenovo/p2/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/lenovo/p2/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/lenovo/p2/proprietary/etc/vhw.xml:system/etc/vhw.xml \
@@ -231,7 +226,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/lenovo/p2/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/lenovo/p2/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/lenovo/p2/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lenovo/p2/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/lenovo/p2/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/lenovo/p2/proprietary/lib/hw/lights.msm8953.so:system/lib/hw/lights.msm8953.so \
