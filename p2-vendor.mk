@@ -178,6 +178,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat \
     vendor/lenovo/p2/proprietary/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat \
     vendor/lenovo/p2/proprietary/etc/firmware/tas2555_uCDSP.bin:system/etc/firmware/tas2555_uCDSP.bin \
+    vendor/lenovo/p2/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin \
+    vendor/lenovo/p2/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat \
     vendor/lenovo/p2/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
     vendor/lenovo/p2/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
     vendor/lenovo/p2/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
