@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/lenovo/p2/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lenovo/p2/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/lenovo/p2/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
     vendor/lenovo/p2/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/lenovo/p2/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/lenovo/p2/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -87,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/lenovo/p2/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/lenovo/p2/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/lenovo/p2/proprietary/etc/audio_platform_info_extcodec.xml:system/etc/audio_platform_info_extcodec.xml \
     vendor/lenovo/p2/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/lenovo/p2/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/lenovo/p2/proprietary/etc/camera/imx258_kuntaoof_chromatix.xml:system/etc/camera/imx258_kuntaoof_chromatix.xml \
@@ -199,7 +201,19 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/init.qti.ims.sh:system/etc/init.qti.ims.sh \
     vendor/lenovo/p2/proprietary/etc/libnfc-brcm-20797b00.conf:system/etc/libnfc-brcm-20797b00.conf \
     vendor/lenovo/p2/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    vendor/lenovo/p2/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/lenovo/p2/proprietary/etc/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
+    vendor/lenovo/p2/proprietary/etc/mixer_paths_qrd_sku3.xml:system/etc/mixer_paths_qrd_sku3.xml \
+    vendor/lenovo/p2/proprietary/etc/mixer_paths_qrd_skuh.xml:system/etc/mixer_paths_qrd_skuh.xml \
+    vendor/lenovo/p2/proprietary/etc/mixer_paths_qrd_skuhf.xml:system/etc/mixer_paths_qrd_skuhf.xml \
+    vendor/lenovo/p2/proprietary/etc/mixer_paths_qrd_skui.xml:system/etc/mixer_paths_qrd_skui.xml \
+    vendor/lenovo/p2/proprietary/etc/mixer_paths_qrd_skum.xml:system/etc/mixer_paths_qrd_skum.xml \
+    vendor/lenovo/p2/proprietary/etc/mixer_paths_qrd_skun.xml:system/etc/mixer_paths_qrd_skun.xml \
+    vendor/lenovo/p2/proprietary/etc/mixer_paths_skuk.xml:system/etc/mixer_paths_skuk.xml \
+    vendor/lenovo/p2/proprietary/etc/mixer_paths_wcd9306.xml:system/etc/mixer_paths_wcd9306.xml \
+    vendor/lenovo/p2/proprietary/etc/mixer_paths_wcd9326.xml:system/etc/mixer_paths_wcd9326.xml \
+    vendor/lenovo/p2/proprietary/etc/mixer_paths_wcd9330.xml:system/etc/mixer_paths_wcd9330.xml \
+    vendor/lenovo/p2/proprietary/etc/mixer_paths_wcd9335.xml:system/etc/mixer_paths_wcd9335.xml \
     vendor/lenovo/p2/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
     vendor/lenovo/p2/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/lenovo/p2/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
@@ -216,6 +230,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lenovo/p2/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/lenovo/p2/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
+    vendor/lenovo/p2/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
+    vendor/lenovo/p2/proprietary/etc/sound_trigger_mixer_paths_wcd9306.xml:system/etc/sound_trigger_mixer_paths_wcd9306.xml \
+    vendor/lenovo/p2/proprietary/etc/sound_trigger_mixer_paths_wcd9330.xml:system/etc/sound_trigger_mixer_paths_wcd9330.xml \
+    vendor/lenovo/p2/proprietary/etc/sound_trigger_mixer_paths_wcd9335.xml:system/etc/sound_trigger_mixer_paths_wcd9335.xml \
     vendor/lenovo/p2/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/lenovo/p2/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/lenovo/p2/proprietary/etc/vhw.xml:system/etc/vhw.xml \
@@ -293,6 +311,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/lenovo/p2/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lenovo/p2/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    vendor/lenovo/p2/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/lenovo/p2/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/lenovo/p2/proprietary/vendor/firmware/BCM20797B0_002.001.043.0005.0010_Generic_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20797B0_002.001.043.0005.0010_Generic_NCD_Unsigned_configdata.ncd \
     vendor/lenovo/p2/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -494,6 +513,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/lenovo/p2/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
+    vendor/lenovo/p2/proprietary/vendor/lib/libllvd_sw_tnr.so:system/vendor/lib/libllvd_sw_tnr.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/lenovo/p2/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
