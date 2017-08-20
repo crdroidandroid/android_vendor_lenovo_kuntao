@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/lenovo/p2/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lenovo/p2/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/lenovo/p2/proprietary/bin/iop:system/bin/iop \
     vendor/lenovo/p2/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/lenovo/p2/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lenovo/p2/proprietary/bin/loc_launcher:system/bin/loc_launcher \
@@ -918,7 +919,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     colorservice \
     ConnectivityExt \
-    QtiTelephonyServicelibrary \
     cneapiclient \
     com.qti.dpmframework \
     com.qti.location.sdk \
@@ -929,6 +929,5 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     izat.xt.srv \
     qcrilhook \
-    qti-telephony-common \
     tcmclient \
     qdcm_calib_data_mipi_mot_cmd_smd_1080p_549
