@@ -21,34 +21,22 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/lenovo/p2/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/lenovo/p2/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/lenovo/p2/proprietary/bin/emmc_ffu:system/bin/emmc_ffu \
-    vendor/lenovo/p2/proprietary/bin/emmc_ffu.sh:system/bin/emmc_ffu.sh \
-    vendor/lenovo/p2/proprietary/bin/emmc_ffu_15.sh:system/bin/emmc_ffu_15.sh \
     vendor/lenovo/p2/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/lenovo/p2/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/lenovo/p2/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/lenovo/p2/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lenovo/p2/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
-    vendor/lenovo/p2/proprietary/bin/init.mmi.touch.sh:system/bin/init.mmi.touch.sh \
     vendor/lenovo/p2/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/lenovo/p2/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lenovo/p2/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lenovo/p2/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lenovo/p2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lenovo/p2/proprietary/bin/mmi:system/bin/mmi \
-    vendor/lenovo/p2/proprietary/bin/mmi_agent32:system/bin/mmi_agent32 \
-    vendor/lenovo/p2/proprietary/bin/mmi_agent64:system/bin/mmi_agent64 \
-    vendor/lenovo/p2/proprietary/bin/mmi_debug:system/bin/mmi_debug \
-    vendor/lenovo/p2/proprietary/bin/mmi_diag:system/bin/mmi_diag \
-    vendor/lenovo/p2/proprietary/bin/motobox:system/bin/motobox \
     vendor/lenovo/p2/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/lenovo/p2/proprietary/bin/mv_files.sh:system/bin/mv_files.sh \
     vendor/lenovo/p2/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lenovo/p2/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/lenovo/p2/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/lenovo/p2/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lenovo/p2/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
-    vendor/lenovo/p2/proprietary/bin/qsee_log.sh:system/bin/qsee_log.sh \
     vendor/lenovo/p2/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/p2/proprietary/bin/radish:system/bin/radish \
     vendor/lenovo/p2/proprietary/bin/rild:system/bin/rild \
@@ -182,25 +170,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat \
     vendor/lenovo/p2/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/lenovo/p2/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/lenovo/p2/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
     vendor/lenovo/p2/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
     vendor/lenovo/p2/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     vendor/lenovo/p2/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
-    vendor/lenovo/p2/proprietary/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
-    vendor/lenovo/p2/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
-    vendor/lenovo/p2/proprietary/etc/init.crda.sh:system/etc/init.crda.sh \
-    vendor/lenovo/p2/proprietary/etc/init.lenovo.persist.sh:system/etc/init.lenovo.persist.sh \
-    vendor/lenovo/p2/proprietary/etc/init.qcom.audio.sh:system/etc/init.qcom.audio.sh \
-    vendor/lenovo/p2/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    vendor/lenovo/p2/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
-    vendor/lenovo/p2/proprietary/etc/init.qcom.debug.sh:system/etc/init.qcom.debug.sh \
-    vendor/lenovo/p2/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
-    vendor/lenovo/p2/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
-    vendor/lenovo/p2/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
-    vendor/lenovo/p2/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
-    vendor/lenovo/p2/proprietary/etc/init.qcom.uicc.sh:system/etc/init.qcom.uicc.sh \
-    vendor/lenovo/p2/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
-    vendor/lenovo/p2/proprietary/etc/init.qti.ims.sh:system/etc/init.qti.ims.sh \
     vendor/lenovo/p2/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lenovo/p2/proprietary/etc/libnfc-brcm-20797b00.conf:system/etc/libnfc-brcm-20797b00.conf \
     vendor/lenovo/p2/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
@@ -233,7 +205,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/p2/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lenovo/p2/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/lenovo/p2/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
     vendor/lenovo/p2/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lenovo/p2/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
     vendor/lenovo/p2/proprietary/etc/sound_trigger_mixer_paths_wcd9306.xml:system/etc/sound_trigger_mixer_paths_wcd9306.xml \
@@ -241,7 +212,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/sound_trigger_mixer_paths_wcd9335.xml:system/etc/sound_trigger_mixer_paths_wcd9335.xml \
     vendor/lenovo/p2/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/lenovo/p2/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
-    vendor/lenovo/p2/proprietary/etc/vhw.xml:system/etc/vhw.xml \
     vendor/lenovo/p2/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/lenovo/p2/proprietary/etc/wifi/fstman.ini:system/etc/wifi/fstman.ini \
     vendor/lenovo/p2/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
