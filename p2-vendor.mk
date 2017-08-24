@@ -910,7 +910,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libts_detected_face_hal \
     libts_face_beautify_hal \
-    QtiTelephonyService \
     TimeService \
     datastatusnotification \
     fastdormancy \
@@ -921,7 +920,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     colorservice \
     ConnectivityExt \
-    QtiTelephonyServicelibrary \
     cneapiclient \
     com.qti.dpmframework \
     com.qti.location.sdk \
@@ -932,6 +930,5 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     izat.xt.srv \
     qcrilhook \
-    qti-telephony-common \
     tcmclient \
     qdcm_calib_data_mipi_mot_cmd_smd_1080p_549
