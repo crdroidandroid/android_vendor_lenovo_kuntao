@@ -255,6 +255,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/lenovo/p2/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/lenovo/p2/proprietary/lib64/hw/lights.msm8953.so:system/lib64/hw/lights.msm8953.so \
+    vendor/lenovo/p2/proprietary/lib64/hw/nfc_nci.bcm2079x.default.so:system/lib64/hw/nfc_nci.bcm2079x.default.so \
     vendor/lenovo/p2/proprietary/lib64/hw/sensors.msm8953.so:system/lib64/hw/sensors.msm8953.so \
     vendor/lenovo/p2/proprietary/lib64/libQseeOptService.so:system/lib64/libQseeOptService.so \
     vendor/lenovo/p2/proprietary/lib64/libTAS2555ftc.so:system/lib64/libTAS2555ftc.so \
