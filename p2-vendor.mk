@@ -169,15 +169,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/firmware/tas2555_uCDSP.bin:system/etc/firmware/tas2555_uCDSP.bin \
     vendor/lenovo/p2/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin \
     vendor/lenovo/p2/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat \
-    vendor/lenovo/p2/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/lenovo/p2/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/lenovo/p2/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
     vendor/lenovo/p2/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     vendor/lenovo/p2/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
-    vendor/lenovo/p2/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lenovo/p2/proprietary/etc/libnfc-brcm-20797b00.conf:system/etc/libnfc-brcm-20797b00.conf \
     vendor/lenovo/p2/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    vendor/lenovo/p2/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/lenovo/p2/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/lenovo/p2/proprietary/etc/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
     vendor/lenovo/p2/proprietary/etc/mixer_paths_qrd_sku3.xml:system/etc/mixer_paths_qrd_sku3.xml \
@@ -206,7 +202,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/p2/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lenovo/p2/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/lenovo/p2/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lenovo/p2/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
     vendor/lenovo/p2/proprietary/etc/sound_trigger_mixer_paths_wcd9306.xml:system/etc/sound_trigger_mixer_paths_wcd9306.xml \
     vendor/lenovo/p2/proprietary/etc/sound_trigger_mixer_paths_wcd9330.xml:system/etc/sound_trigger_mixer_paths_wcd9330.xml \
@@ -218,7 +213,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/lenovo/p2/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/lenovo/p2/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/lenovo/p2/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lenovo/p2/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/lenovo/p2/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/lenovo/p2/proprietary/lib/hw/lights.msm8953.so:system/lib/hw/lights.msm8953.so \
