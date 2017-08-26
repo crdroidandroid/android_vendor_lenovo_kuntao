@@ -225,7 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/lenovo/p2/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/lenovo/p2/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
-    vendor/lenovo/p2/proprietary/lib/hw/lights.msm8953.so:system/lib/hw/lights.msm8953.so \
     vendor/lenovo/p2/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
     vendor/lenovo/p2/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/lenovo/p2/proprietary/lib/libQseeOptService.so:system/lib/libQseeOptService.so \
@@ -258,7 +257,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lenovo/p2/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/lenovo/p2/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
-    vendor/lenovo/p2/proprietary/lib64/hw/lights.msm8953.so:system/lib64/hw/lights.msm8953.so \
     vendor/lenovo/p2/proprietary/lib64/hw/nfc_nci.bcm2079x.default.so:system/lib64/hw/nfc_nci.bcm2079x.default.so \
     vendor/lenovo/p2/proprietary/lib64/hw/sensors.msm8953.so:system/lib64/hw/sensors.msm8953.so \
     vendor/lenovo/p2/proprietary/lib64/libQseeOptService.so:system/lib64/libQseeOptService.so \
