@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/lenovo/p2/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/p2/proprietary/bin/radish:system/bin/radish \
-    vendor/lenovo/p2/proprietary/bin/rild:system/bin/rild \
     vendor/lenovo/p2/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lenovo/p2/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lenovo/p2/proprietary/bin/smart_charger:system/bin/smart_charger \
@@ -252,7 +251,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/lenovo/p2/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/lenovo/p2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/lenovo/p2/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lenovo/p2/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/lenovo/p2/proprietary/lib/libsynaFpTestHal.so:system/lib/libsynaFpTestHal.so \
     vendor/lenovo/p2/proprietary/lib/libunwind.so:system/lib/libunwind.so \
@@ -275,7 +273,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p2/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
     vendor/lenovo/p2/proprietary/lib64/libmotext_inf.so:system/lib64/libmotext_inf.so \
     vendor/lenovo/p2/proprietary/lib64/libqmimotext.so:system/lib64/libqmimotext.so \
-    vendor/lenovo/p2/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lenovo/p2/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/lenovo/p2/proprietary/lib64/libsynaFpTestHal.so:system/lib64/libsynaFpTestHal.so \
     vendor/lenovo/p2/proprietary/lib64/libtzssm.so:system/lib64/libtzssm.so \
@@ -967,6 +964,7 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     imscmlibrary \
     izat.xt.srv \
+    qcnvitems \
     qcrilhook \
     qti-telephony-common \
     rcsimssettings \
