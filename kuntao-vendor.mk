@@ -175,9 +175,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/firmware/tas2555_uCDSP.bin:system/etc/firmware/tas2555_uCDSP.bin \
     vendor/lenovo/kuntao/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin \
     vendor/lenovo/kuntao/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat \
-    vendor/lenovo/kuntao/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
-    vendor/lenovo/kuntao/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
-    vendor/lenovo/kuntao/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
     vendor/lenovo/kuntao/proprietary/etc/libnfc-brcm-20797b00.conf:system/etc/libnfc-brcm-20797b00.conf \
     vendor/lenovo/kuntao/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     vendor/lenovo/kuntao/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
@@ -222,8 +219,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml \
     vendor/lenovo/kuntao/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/lenovo/kuntao/proprietary/etc/wifi/fstman.ini:system/etc/wifi/fstman.ini \
-    vendor/lenovo/kuntao/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/lenovo/kuntao/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/lenovo/kuntao/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/lenovo/kuntao/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/lenovo/kuntao/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
@@ -277,7 +272,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/lenovo/kuntao/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lenovo/kuntao/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/lenovo/kuntao/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/lenovo/kuntao/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/BCM20797B0_002.001.043.0005.0010_Generic_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20797B0_002.001.043.0005.0010_Generic_NCD_Unsigned_configdata.ncd \
@@ -915,7 +909,6 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     CNEService \
     QtiTetherService \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     colorservice \
     ims \
