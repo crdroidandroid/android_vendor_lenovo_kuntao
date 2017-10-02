@@ -874,14 +874,12 @@ PRODUCT_PACKAGES += \
     TimeService \
     datastatusnotification \
     shutdownlistener \
-    CNEService \
     qcrilmsgtunnel \
     colorservice \
     ConnectivityExt \
     cneapiclient \
     com.qti.dpmframework \
     com.qti.snapdragon.sdk.display \
-    com.quicinc.cne \
     dpmapi \
     embmslibrary \
     qcnvitems \
