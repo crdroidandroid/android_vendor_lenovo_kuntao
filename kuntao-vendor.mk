@@ -875,7 +875,6 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     shutdownlistener \
     CNEService \
-    QtiTetherService \
     qcrilmsgtunnel \
     colorservice \
     ConnectivityExt \
