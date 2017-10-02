@@ -873,7 +873,6 @@ PRODUCT_PACKAGES += \
     libts_face_beautify_hal \
     TimeService \
     datastatusnotification \
-    fastdormancy \
     shutdownlistener \
     CNEService \
     QtiTetherService \
