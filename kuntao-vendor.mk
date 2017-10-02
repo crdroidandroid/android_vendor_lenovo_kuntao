@@ -423,8 +423,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libchromatix_ov5695_kuntaosy_video_full.so:system/vendor/lib/libchromatix_ov5695_kuntaosy_video_full.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libchromatix_ov5695_kuntaosy_zsl_preview.so:system/vendor/lib/libchromatix_ov5695_kuntaosy_zsl_preview.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libchromatix_ov5695_kuntaosy_zsl_video.so:system/vendor/lib/libchromatix_ov5695_kuntaosy_zsl_video.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
@@ -622,7 +620,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
@@ -785,6 +782,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libmmsw_platform.so:system/vendor/lib64/libmmsw_platform.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libprotobuf-cpp-derp.so:system/vendor/lib64/libprotobuf-cpp-derp.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libprotobuf-cpp-shit.so:system/vendor/lib64/libprotobuf-cpp-shit.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
