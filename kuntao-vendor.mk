@@ -186,7 +186,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/mixer_paths_wcd9326.xml:system/etc/mixer_paths_wcd9326.xml \
     vendor/lenovo/kuntao/proprietary/etc/mixer_paths_wcd9330.xml:system/etc/mixer_paths_wcd9330.xml \
     vendor/lenovo/kuntao/proprietary/etc/mixer_paths_wcd9335.xml:system/etc/mixer_paths_wcd9335.xml \
-    vendor/lenovo/kuntao/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -243,7 +242,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lenovo/kuntao/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/lenovo/kuntao/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
-    vendor/lenovo/kuntao/proprietary/lib64/hw/nfc_nci.bcm2079x.default.so:system/lib64/hw/nfc_nci.bcm2079x.default.so \
     vendor/lenovo/kuntao/proprietary/lib64/hw/sensors.msm8953.so:system/lib64/hw/sensors.msm8953.so \
     vendor/lenovo/kuntao/proprietary/lib64/libQseeOptService.so:system/lib64/libQseeOptService.so \
     vendor/lenovo/kuntao/proprietary/lib64/libTAS2555ftc.so:system/lib64/libTAS2555ftc.so \
