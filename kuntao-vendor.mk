@@ -235,6 +235,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lenovo/kuntao/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/lenovo/kuntao/proprietary/lib/libsynaFpTestHal.so:system/lib/libsynaFpTestHal.so \
+    vendor/lenovo/kuntao/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/lenovo/kuntao/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
     vendor/lenovo/kuntao/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
     vendor/lenovo/kuntao/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
@@ -250,6 +251,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib64/libqmimotext.so:system/lib64/libqmimotext.so \
     vendor/lenovo/kuntao/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/lenovo/kuntao/proprietary/lib64/libsynaFpTestHal.so:system/lib64/libsynaFpTestHal.so \
+    vendor/lenovo/kuntao/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     vendor/lenovo/kuntao/proprietary/lib64/libtzssm.so:system/lib64/libtzssm.so \
     vendor/lenovo/kuntao/proprietary/lib64/libvalAuth.so:system/lib64/libvalAuth.so \
     vendor/lenovo/kuntao/proprietary/lib64/libvcsfp.so:system/lib64/libvcsfp.so \
