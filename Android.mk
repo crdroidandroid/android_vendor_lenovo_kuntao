@@ -108,18 +108,6 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := colorservice
-LOCAL_MODULE_OWNER := lenovo
-LOCAL_SRC_FILES := proprietary/vendor/app/colorservice/colorservice.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := ConnectivityExt
 LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES := proprietary/framework/ConnectivityExt.jar
@@ -143,16 +131,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := com.qti.dpmframework
 LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES := proprietary/framework/com.qti.dpmframework.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.qti.snapdragon.sdk.display
-LOCAL_MODULE_OWNER := lenovo
-LOCAL_SRC_FILES := proprietary/framework/com.qti.snapdragon.sdk.display.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -207,15 +185,6 @@ LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := qdcm_calib_data_mipi_mot_cmd_smd_1080p_549
-LOCAL_MODULE_OWNER := lenovo
-LOCAL_SRC_FILES := proprietary/etc/qdcm_calib_data_mipi_mot_cmd_smd_1080p_549.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
 include $(BUILD_PREBUILT)
 
 endif

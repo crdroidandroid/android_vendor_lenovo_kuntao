@@ -446,7 +446,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-    vendor/lenovo/kuntao/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
@@ -891,14 +890,11 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     shutdownlistener \
     qcrilmsgtunnel \
-    colorservice \
     ConnectivityExt \
     cneapiclient \
     com.qti.dpmframework \
-    com.qti.snapdragon.sdk.display \
     dpmapi \
     embmslibrary \
     qcnvitems \
     qcrilhook \
-    tcmclient \
-    qdcm_calib_data_mipi_mot_cmd_smd_1080p_549
+    tcmclient
