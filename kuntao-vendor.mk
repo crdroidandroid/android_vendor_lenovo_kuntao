@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -130,7 +130,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml \
     vendor/lenovo/kuntao/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/lenovo/kuntao/proprietary/etc/wifi/fstman.ini:system/etc/wifi/fstman.ini \
-    vendor/lenovo/kuntao/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/hw/audio.primary.msm8953.so:system/vendor/lib/hw/audio.primary.msm8953.so \
     vendor/lenovo/kuntao/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/lenovo/kuntao/proprietary/lib/libTAS2555ftc.so:system/lib/libTAS2555ftc.so \
     vendor/lenovo/kuntao/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
@@ -149,7 +149,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
     vendor/lenovo/kuntao/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
     vendor/lenovo/kuntao/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so \
-    vendor/lenovo/kuntao/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/audio.primary.msm8953.so:system/vendor/lib64/hw/audio.primary.msm8953.so \
     vendor/lenovo/kuntao/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/lenovo/kuntao/proprietary/lib64/libTAS2555ftc.so:system/lib64/libTAS2555ftc.so \
     vendor/lenovo/kuntao/proprietary/lib64/libsynaFpTestHal.so:system/lib64/libsynaFpTestHal.so \
