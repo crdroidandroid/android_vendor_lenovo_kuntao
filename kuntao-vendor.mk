@@ -388,34 +388,17 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/lenovo/kuntao/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/lenovo/kuntao/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/iop:system/vendor/bin/iop \
     vendor/lenovo/kuntao/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/lenovo/kuntao/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/lenovo/kuntao/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/lenovo/kuntao/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/port-bridge:system/vendor/bin/port-bridge \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/qmi_motext_hook:system/vendor/bin/qmi_motext_hook \
     vendor/lenovo/kuntao/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/radish:system/vendor/bin/radish \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/lenovo/kuntao/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/lenovo/kuntao/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/lenovo/kuntao/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/lenovo/kuntao/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/lenovo/kuntao/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/lenovo/kuntao/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/lenovo/kuntao/proprietary/etc/cne/wqeclient/profile1.xml:system/etc/cne/wqeclient/profile1.xml \
-    vendor/lenovo/kuntao/proprietary/etc/cne/wqeclient/profile2.xml:system/etc/cne/wqeclient/profile2.xml \
-    vendor/lenovo/kuntao/proprietary/etc/cne/wqeclient/profile3.xml:system/etc/cne/wqeclient/profile3.xml \
-    vendor/lenovo/kuntao/proprietary/etc/cne/wqeclient/profile4.xml:system/etc/cne/wqeclient/profile4.xml \
-    vendor/lenovo/kuntao/proprietary/etc/cne/wqeclient/profile5.xml:system/etc/cne/wqeclient/profile5.xml \
-    vendor/lenovo/kuntao/proprietary/etc/cne/wqeclient/profile6.xml:system/etc/cne/wqeclient/profile6.xml \
-    vendor/lenovo/kuntao/proprietary/etc/cne/wqeclient/profile7.xml:system/etc/cne/wqeclient/profile7.xml \
-    vendor/lenovo/kuntao/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/lenovo/kuntao/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lenovo/kuntao/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
     vendor/lenovo/kuntao/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/lenovo/kuntao/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
@@ -435,10 +418,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/lenovo/kuntao/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
+    vendor/lenovo/kuntao/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/lenovo/kuntao/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
@@ -448,15 +431,22 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/lenovo/kuntao/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/lenovo/kuntao/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/lenovo/kuntao/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/lenovo/kuntao/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
+    vendor/lenovo/kuntao/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
+    vendor/lenovo/kuntao/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
+    vendor/lenovo/kuntao/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
+    vendor/lenovo/kuntao/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
     vendor/lenovo/kuntao/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/lenovo/kuntao/proprietary/lib/libQseeOptService.so:system/lib/libQseeOptService.so \
-    vendor/lenovo/kuntao/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
-    vendor/lenovo/kuntao/proprietary/lib/libqdMetaData.system.so:system/lib/libqdMetaData.system.so \
+    vendor/lenovo/kuntao/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
+    vendor/lenovo/kuntao/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/lenovo/kuntao/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
+    vendor/lenovo/kuntao/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
+    vendor/lenovo/kuntao/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/lenovo/kuntao/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/lenovo/kuntao/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
-    vendor/lenovo/kuntao/proprietary/lib/libvendorconn.so:system/lib/libvendorconn.so \
     vendor/lenovo/kuntao/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/lenovo/kuntao/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/lenovo/kuntao/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/lenovo/kuntao/proprietary/lib64/hw/sensors.msm8953.so:system/lib64/hw/sensors.msm8953.so \
     vendor/lenovo/kuntao/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
@@ -464,36 +454,37 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/lenovo/kuntao/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/lenovo/kuntao/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libQseeOptService.so:system/lib64/libQseeOptService.so \
     vendor/lenovo/kuntao/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/lenovo/kuntao/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/lenovo/kuntao/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/lenovo/kuntao/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libmotext_inf.so:system/lib64/libmotext_inf.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libqmimotext.so:system/lib64/libqmimotext.so \
+    vendor/lenovo/kuntao/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/lenovo/kuntao/proprietary/lib64/libqsap_sdk.so:system/lib64/libqsap_sdk.so \
     vendor/lenovo/kuntao/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/lenovo/kuntao/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/lenovo/kuntao/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libtzssm.so:system/lib64/libtzssm.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libvendorconn.so:system/lib64/libvendorconn.so \
     vendor/lenovo/kuntao/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/lenovo/kuntao/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/lenovo/kuntao/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/lenovo/kuntao/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/lenovo/kuntao/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
+    vendor/lenovo/kuntao/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/lenovo/kuntao/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/lenovo/kuntao/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/lenovo/kuntao/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/lenovo/kuntao/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/lenovo/kuntao/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
+    vendor/lenovo/kuntao/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/lenovo/kuntao/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/lenovo/kuntao/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/lenovo/kuntao/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
+    vendor/lenovo/kuntao/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/lenovo/kuntao/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/kuntao/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/lenovo/kuntao/proprietary/vendor/bin/qti:system/vendor/bin/qti \
+    vendor/lenovo/kuntao/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/lenovo/kuntao/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
+    vendor/lenovo/kuntao/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/lenovo/kuntao/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lenovo/kuntao/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/lenovo/kuntao/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
@@ -516,10 +507,14 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml \
     vendor/lenovo/kuntao/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/lenovo/kuntao/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/lenovo/kuntao/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/lenovo/kuntao/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/lenovo/kuntao/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/lenovo/kuntao/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/com.quicinc.cne.constants@2.0.so:system/vendor/lib/com.quicinc.cne.constants@2.0.so \
@@ -536,7 +531,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:system/vendor/lib/hw/gatekeeper.msm8953.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/hw/vulkan.msm8953.so:system/vendor/lib/hw/vulkan.msm8953.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-imscmservice.so:system/vendor/lib/lib-imscmservice.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/lib-uceservice.so:system/vendor/lib/lib-uceservice.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -563,7 +560,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/lib_acgdaemon.so:system/vendor/lib/lib_acgdaemon.so \
@@ -587,11 +583,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libcneoplookup.so:system/vendor/lib/libcneoplookup.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/libdpmqmihal.so:system/vendor/lib/libdpmqmihal.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
@@ -608,7 +604,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmag_akm.so:system/vendor/lib/libmag_akm.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
@@ -620,7 +615,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
@@ -639,14 +633,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/librilqmiservices.so:system/vendor/lib/librilqmiservices.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
@@ -686,9 +673,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libtinyxml2_1.so:system/vendor/lib/libtinyxml2_1.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
@@ -717,6 +702,17 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:system/vendor/lib64/com.quicinc.cne.api@1.0.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:system/vendor/lib64/com.quicinc.cne.constants@1.0.so \
@@ -774,7 +770,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/lib_acgdaemon.so:system/vendor/lib64/lib_acgdaemon.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/lib_drplugin_server.so:system/vendor/lib64/lib_drplugin_server.so \
@@ -802,6 +797,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libdpmqmihal.so:system/vendor/lib64/libdpmqmihal.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
@@ -861,9 +857,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
@@ -929,22 +923,29 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
-    vendor/lenovo/kuntao/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/lenovo/kuntao/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
     libloc_api_v02 \
+    QtiTelephonyService \
     TimeService \
-    datastatusnotification \
     ims \
     imssettings \
-    shutdownlistener \
     CNEService \
     com.qualcomm.location \
     qcrilmsgtunnel \
-    embmslibrary \
-    qcnvitems \
-    qcrilhook
+    QtiTelephonyServicelibrary \
+    qcrilhook \
+    qti-telephony-common
