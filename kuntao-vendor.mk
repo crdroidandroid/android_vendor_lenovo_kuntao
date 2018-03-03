@@ -131,18 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/lenovo/kuntao/proprietary/etc/wifi/fstman.ini:system/etc/wifi/fstman.ini \
     vendor/lenovo/kuntao/proprietary/vendor/lib/hw/audio.primary.msm8953.so:system/vendor/lib/hw/audio.primary.msm8953.so \
-    vendor/lenovo/kuntao/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/lenovo/kuntao/proprietary/lib/libTAS2555ftc.so:system/lib/libTAS2555ftc.so \
-    vendor/lenovo/kuntao/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
-    vendor/lenovo/kuntao/proprietary/lib/libarcsoft_hdr.so:system/lib/libarcsoft_hdr.so \
-    vendor/lenovo/kuntao/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
-    vendor/lenovo/kuntao/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-    vendor/lenovo/kuntao/proprietary/lib/libivc_smartengine.so:system/lib/libivc_smartengine.so \
-    vendor/lenovo/kuntao/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/lenovo/kuntao/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/lenovo/kuntao/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/lenovo/kuntao/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
-    vendor/lenovo/kuntao/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lenovo/kuntao/proprietary/lib/libsynaFpTestHal.so:system/lib/libsynaFpTestHal.so \
     vendor/lenovo/kuntao/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/lenovo/kuntao/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
