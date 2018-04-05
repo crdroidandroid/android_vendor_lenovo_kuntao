@@ -108,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/libnfc-brcm-20797b00.conf:system/etc/libnfc-brcm-20797b00.conf \
     vendor/lenovo/kuntao/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     vendor/lenovo/kuntao/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
-    vendor/lenovo/kuntao/proprietary/etc/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
     vendor/lenovo/kuntao/proprietary/etc/mixer_paths_qrd_sku3.xml:system/etc/mixer_paths_qrd_sku3.xml \
     vendor/lenovo/kuntao/proprietary/etc/mixer_paths_qrd_skuh.xml:system/etc/mixer_paths_qrd_skuh.xml \
     vendor/lenovo/kuntao/proprietary/etc/mixer_paths_qrd_skuhf.xml:system/etc/mixer_paths_qrd_skuhf.xml \
