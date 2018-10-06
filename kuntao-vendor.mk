@@ -710,11 +710,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     SimSettings \
     TimeService \
-    ims \
-    imssettings \
-    CNEService \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     QtiTelephonyServicelibrary \
     qcrilhook \
-    qti-telephony-common
