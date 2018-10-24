@@ -696,7 +696,6 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     ims \
     imssettings \
-    CNEService \
     qcrilmsgtunnel \
     TimeService \
     QtiTelephonyServicelibrary \
