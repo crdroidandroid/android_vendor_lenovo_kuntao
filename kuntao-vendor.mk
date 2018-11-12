@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/tas2555_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2555_uCDSP.bin \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/emmc_ffu_15_RX14MB.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/emmc_ffu_15_RX14MB.fw \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/ice40.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/ice40.bin \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508-16060806-kuntao.tdat:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/synaptics-s3508-16060806-kuntao.tdat \
@@ -59,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508sga-16080201-kuntao.tdat:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/synaptics-s3508sga-16080201-kuntao.tdat \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/tas2555_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tas2555_uCDSP.bin \
     vendor/lenovo/kuntao/proprietary/vendor/etc/libnfc-brcm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm.conf \
     vendor/lenovo/kuntao/proprietary/vendor/etc/nfc_wallet.conf:$(TARGET_COPY_OUT_VENDOR)/etc/nfc_wallet.conf \
     vendor/lenovo/kuntao/proprietary/vendor/etc/nfcee_access.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfcee_access.xml \
