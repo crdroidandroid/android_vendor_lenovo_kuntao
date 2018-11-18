@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/lenovo/kuntao/proprietary/vendor/bin/smart_charger:$(TARGET_COPY_OUT_VENDOR)/bin/smart_charger \
     vendor/lenovo/kuntao/proprietary/vendor/bin/synaFpTestHalTest:$(TARGET_COPY_OUT_VENDOR)/bin/synaFpTestHalTest \
+    vendor/lenovo/kuntao/proprietary/vendor/bin/power_off_alarm:$(TARGET_COPY_OUT_VENDOR)/bin/power_off_alarm \
     vendor/lenovo/kuntao/proprietary/vendor/bin/vfmAPITest:$(TARGET_COPY_OUT_VENDOR)/bin/vfmAPITest \
     vendor/lenovo/kuntao/proprietary/vendor/bin/vfmExTest:$(TARGET_COPY_OUT_VENDOR)/bin/vfmExTest \
     vendor/lenovo/kuntao/proprietary/vendor/bin/vfmService:$(TARGET_COPY_OUT_VENDOR)/bin/vfmService \
