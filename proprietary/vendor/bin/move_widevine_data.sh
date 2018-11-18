@@ -1,6 +1,6 @@
 #!/vendor/bin/sh
 
- DEST_PATH="/data/vendor/mediadrm"
+DEST_PATH="/data/vendor/mediadrm"
 FILES_MOVED="/data/vendor/mediadrm/files_moved"
 SRC_PATH="/data/mediadrm"
 
