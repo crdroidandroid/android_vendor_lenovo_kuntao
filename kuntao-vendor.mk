@@ -675,5 +675,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     QtiTelephonyServicelibrary \
     qcrilhook \
+    qti-telephony-common \
     PowerOffAlarm \
     vendor.qti.hardware.alarm-V1.0-java
