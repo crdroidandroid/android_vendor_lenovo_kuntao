@@ -322,7 +322,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.quicinc.cne.server-V2.2-java
 LOCAL_MODULE_OWNER := lenovo
-LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.server-V2.2-java
+LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.server-V2.2-java.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
