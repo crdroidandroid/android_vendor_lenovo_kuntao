@@ -79,6 +79,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
     vendor/lenovo/kuntao/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
     vendor/lenovo/kuntao/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
+    vendor/lenovo/kuntao/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
+    vendor/lenovo/kuntao/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
     vendor/lenovo/kuntao/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
     vendor/lenovo/kuntao/proprietary/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
     vendor/lenovo/kuntao/proprietary/lib/libwfduibcsink.so:system/lib/libwfduibcsink.so \
@@ -96,6 +98,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/lenovo/kuntao/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/lenovo/kuntao/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
+    vendor/lenovo/kuntao/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
+    vendor/lenovo/kuntao/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
+    vendor/lenovo/kuntao/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
     vendor/lenovo/kuntao/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/lenovo/kuntao/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/lenovo/kuntao/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
@@ -106,7 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/lenovo/kuntao/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/lenovo/kuntao/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
-	vendor/lenovo/kuntao/proprietary/lib64/libwfdsm.so:system/lib64/libwfdsm.so \
+    vendor/lenovo/kuntao/proprietary/lib64/libwfds.so:system/lib64/libwfds.so \
     vendor/lenovo/kuntao/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/lenovo/kuntao/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/lenovo/kuntao/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
